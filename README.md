@@ -13,13 +13,14 @@
 * HTML
 * MSTest
 
-## Installation
-* Clone project repo
-* From the project's root directory, open console and type dotnet run
+## Installation and Run
+* Follow the following stepts using the terminal
+* Click on the local host link (Ctrl + click )
 
 ```sh
 $ git clone 
-$ cd  
+$ cd
+$ dotnet restore
 $ dotnet run
 ```
 
