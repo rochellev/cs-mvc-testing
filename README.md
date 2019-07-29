@@ -3,11 +3,14 @@
 -----
 
 ## Description
-* Project template for C# console apps
+* Project template for C# Web Apps
 * Unit testing set up too
 
 ## Technologies Used
 * C#
+* .NET
+* ASP.NET Core MVC
+* HTML
 * MSTest
 
 ## Installation
@@ -28,11 +31,13 @@ $ dotnet run
 
 ## Project Directory
 1. Model Directory
-    * contains project's .cs files 
+    * contains project's class files 
     * this is where your classes go
 2. Project.csproj
     * things needed to install 
     * dotnet restore -- will install dependencies
+3. Views
+4. Controllers
 
 ## Project.Tests Directory
 1. ModelTests Directory
