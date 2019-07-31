@@ -7,11 +7,11 @@ namespace Project.Controllers
     {
         // routes go here
 
-          [Route("/")]
+        [HttpGet("/")]
         public ActionResult Index()
         {
-          ProjectClass starterItem = new ProjectClass("Add first item to To Do List");
-          return View(starterItem);
+            ProjectClass starterItem = new ProjectClass("Add first item to To Do List");
+            return View(starterItem);
         }
 
     }
